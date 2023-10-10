@@ -1,0 +1,63 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  background: #f2f2f2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.breed-select {
+  font-size: 24px;
+  color: #4a90e2;
+  width: 80%;
+  height: 48px;
+  font-weight: 600;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+  display: flex;
+  margin: 20px auto;
+  padding: 8px;
+}
+
+.error {
+  padding: 16px;
+  background-color: #ff6b6b;
+  width: 80%;
+  margin: 20px auto;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.loader {
+  max-width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+  margin: 20px auto;
+}
+
+.cat-info.hidden {
+  display: none;
+}
+
+.cat-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  color: #333;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-top: 20px;
+}
